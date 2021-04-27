@@ -113,10 +113,9 @@ for (x, target) in zip(X, y):
     # to our console
     pred = p.predict(x)
     print("[INFO] data={}, ground-truth={}, pred={}".format(x, target[0], pred))
-    
-    
-    
- # construct the NAND dataset
+
+
+# construct the NAND dataset
 X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 y = np.array([[1], [1], [1], [0]])
 # define our perceptron and train it
@@ -132,4 +131,4 @@ for (x, target) in zip(X, y):
     # make a prediction on the data point and display the result
     # to our console
     pred = p.predict(x)
-    print("[INFO] data={}, ground-truth={}, pred={}".format(x, target[0], pred))   
+    print("[INFO] data={}, ground-truth={}, pred={}".format(x, target[0], pred))
