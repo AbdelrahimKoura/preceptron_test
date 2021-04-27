@@ -114,7 +114,6 @@ for (x, target) in zip(X, y):
     pred = p.predict(x)
     print("[INFO] data={}, ground-truth={}, pred={}".format(x, target[0], pred))
 
-
 # construct the NAND dataset
 X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 y = np.array([[1], [1], [1], [0]])
