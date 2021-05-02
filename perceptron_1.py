@@ -114,7 +114,8 @@ for (x, target) in zip(X, y):
     pred = p.predict(x)
     print("[INFO] data={}, ground-truth={}, pred={}".format(x, target[0], pred))
     
-
+    
+# I wanted to do Pull Request , but I found the code
 # NAND
 # construct the NAND dataset
 X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
