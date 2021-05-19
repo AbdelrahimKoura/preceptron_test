@@ -1,3 +1,4 @@
+# first example with deep learning
 from keras.utils import to_categorical
 from keras import layers
 from keras import models
