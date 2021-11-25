@@ -1,6 +1,7 @@
+
 # import the necessary packages
 import numpy as np
-
+#eslam
 
 class Perceptron:
     def __init__(self, N, alpha=0.1):
